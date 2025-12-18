@@ -5,6 +5,11 @@
 # Bootcamp - CI&T - Backend com Java & AWS
 <p>Domine o desenvolvimento backend profissional com Java e AWS. Aprenda desde os fundamentos da linguagem até a criação de APIs RESTful escaláveis com Spring Boot, integração com bancos de dados SQL e NoSQL, e deploy em nuvem com Amazon Web Services. Nesta trilha, você vai desenvolver suas habilidades com projetos práticos, desafios de código e mentorias ao vivo com experts da CI&T, além de aprender estratégias reais de escalabilidade para sistemas de varejo.</p>
 
+## 📄 Materiais
+
+- Instruções, apresentações, materiais tudo [aqui!](./public/docs/materials/)
+
+
 <!--## 🚀 Desafios de Projeto
 
 ### 🌐 Criar uma Página Web Utilizando as Tags Aprendidas
@@ -14,6 +19,6 @@
 -->
 ## 🎯 Resultados
 
-Confira os certificados [aqui!](./public/docs/)
+Confira os certificados [aqui!](./public/docs/certificates/)
 
 ---
