@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class App {
     public static void main(String[] args) throws Exception {
         System.out.println("Hello, World!");
-        var scanner = new Scanner(System.in);
+        var scanner = new Scanner(System.in);        
         // Scanner scanner = new Scanner(System.in);
         System.out.printf("Enter your name: ");
         var name = scanner.nextLine();
@@ -19,6 +19,10 @@ public class App {
                 System.out.println("Invalid year, please try again.");
             } else {
                 System.out.println("You are " + age + " years old.");
+                // Using Person class
+                var person = new Person();
+                person.setPerson(name, age);
+                System.out.println("Person Data: \n" + person.getData());
                 break;
             }
         } while (true);
