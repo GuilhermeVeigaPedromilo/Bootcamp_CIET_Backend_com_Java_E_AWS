@@ -1,30 +1,33 @@
+import java.time.OffsetDateTime;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        int currentYear = OffsetDateTime.now().getYear();
         System.out.println("Hello, World!");
         var scanner = new Scanner(System.in);        
         // Scanner scanner = new Scanner(System.in);
         System.out.printf("Enter your name: ");
         var name = scanner.nextLine();
-        System.out.println("Welcome, " + name + "!");
+        System.out.printf("Welcome, " + name + "!");
         //  Repeat Structure do - while
         do {
             System.out.printf("When is you born (YYYY): ");
             var year = scanner.nextInt();
             // Logic Operation Arithmetic
-            var age = 2025 - year;
+            var age = currentYear - year;
             // Conditional Structure
             if (age < 0 || age > 120) {
                 System.out.println("Invalid year, please try again.");
             } else {
-                System.out.println("You are " + age + " years old.");
+                System.out.printf("You are " + age + " years old.");
                 // Using Person class
-                var person = new Person();
+                final var person = new Person();
                 person.setPerson(name, age);
-                System.out.println("Person Data: \n" + person.getData());
+                System.out.printf("Person Data: \n" + person.getData());
                 break;
             }
         } while (true);
+        scanner.close();
     }
 }

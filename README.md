@@ -8,6 +8,7 @@
 ## 📄 Materiais
 
 - Instruções, apresentações, materiais tudo [aqui!](./public/docs/materials/)
+- Exercícios básicos [aqui!](https://github.com/digitalinnovationone/exercicios-java-basico)
 
 
 <!--## 🚀 Desafios de Projeto
