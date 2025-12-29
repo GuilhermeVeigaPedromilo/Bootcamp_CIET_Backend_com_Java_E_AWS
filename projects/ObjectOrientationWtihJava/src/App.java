@@ -10,7 +10,8 @@ public class App {
             System.out.println("Choose an option:");
             System.out.println("1- Register an Employee");
             System.out.println("2- View Employees");
-            System.out.println("3- Exit");
+            System.out.println("3- Calculate Deductions");
+            System.out.println("4- Exit");
             System.out.print("Option: ");
             int option = scanner.nextInt();
             scanner.nextLine();
@@ -47,10 +48,11 @@ public class App {
                             break;
                         case 2:
                             scanner.nextLine();
-                            System.out.println("Enter car's name destined to the manager");
+                            System.out.println("Enter car's name destined to the manager: ");
                             String companyCar = scanner.nextLine();
                             manager.setData(name, cpf, code, salary, department);
                             manager.setManager(companyCar);
+                            System.out.println("Manager registered successfully!"); // Added confirmation
                             break;
                         case 3:
                             System.out.println("Operation cancelled.");
@@ -60,6 +62,7 @@ public class App {
                             break;
                     }
                     break;
+
                 case 2:
                     System.out.println("Employee Data:");
                     System.out.println("Manager: ");
@@ -68,7 +71,20 @@ public class App {
                     System.out.println("Engineer: ");
                     engineer.getEngineerData();
                     break;
+
                 case 3:
+                    System.out.println("Calculating deduction for Manager...");
+                    double managerDeductions = manager.calculateDiscounts(manager.getSalary());
+                    double liquidSalaryManager = manager.getSalary() - managerDeductions;
+                    System.out.println("Liquid Salary of Manager: " + liquidSalaryManager);
+
+                    System.out.println("Calculating deduction for Engineer...");
+                    double engineerDeductions = engineer.calculateDiscounts(engineer.getSalary());
+                    double liquidSalaryEngineer = engineer.getSalary() - engineerDeductions;
+                    System.out.println("Liquid Salary of Engineer: " + liquidSalaryEngineer);
+                    break;
+
+                case 4:
                     System.out.println("Exiting the system. Goodbye");
                     scanner.close();
                     System.exit(0);

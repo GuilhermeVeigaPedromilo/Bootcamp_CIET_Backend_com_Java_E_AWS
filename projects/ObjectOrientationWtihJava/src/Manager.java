@@ -1,4 +1,4 @@
-public class Manager extends Employee {
+public non-sealed class Manager extends Employee {
     private String companyCar;
     public void setManager(String companyCar) {
         this.companyCar = companyCar;
