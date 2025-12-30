@@ -39,7 +39,6 @@ public sealed abstract class Employee permits Manager, Engineer {
         }
         double fgts_tax_value = (salary / 100) * 8.3;
         double total_deductions = inss_tax_value + fgts_tax_value;
-        System.out.println("Total Deductions: " + total_deductions);
         return total_deductions;
     }
 }

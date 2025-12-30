@@ -1,6 +1,12 @@
-public class Engineer extends Employee{
+public final class Engineer extends Employee implements Payable {
     private String level;
     private String crea;
+
+    @Override
+    public double getPaymentAmount() {
+        // Standard calculation
+        return getSalary() - calculateDiscounts(getSalary());
+    }
     public void setEngineer(String level, String crea) {
         this.level = level;
         this.crea = crea;
