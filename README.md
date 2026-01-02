@@ -10,14 +10,14 @@
 - Instruções, apresentações, materiais tudo [aqui!](./public/docs/materials/)
 - Exercícios básicos [aqui!](https://github.com/digitalinnovationone/exercicios-java-basico)
 
+## 🚀 Desafios de Projeto
 
-<!--## 🚀 Desafios de Projeto
+### 🍵 Abstraindo um Bootcamp Usando Orientação a Objetos em Java
 
-### 🌐 Criar uma Página Web Utilizando as Tags Aprendidas
-- A proposta deste desafio é desenvolver um website simples, utilizando as **tags HTML** aprendidas durante as aulas práticas. O objetivo é fixar o conhecimento por meio da prática!
+- A proposta deste desafio é desmistificar a Programação Orientada a Objetos (POO) com Java e praticar esse conceito fundamental. Para isso, os pilares da OO são devidamente formalizados: Abstração, Encapsulamento, Herança e Polimorfismo. Neste desafio, será desenvolvido a capacidade de abstração com um problema real e implementar as evoluções que achar interessantes.
 
-- [📄 Acesse o Arquivo do Desafio aqui!](./Primeiros%20passos%20com%20HTML/Desafio%20de%20Projeto%20-%20Criando%20uma%20Página%20WEB/Criar%20Uma%20Página%20Web%20Utilizando%20as%20Tags%20Aprendidas.md)
--->
+- [📄 Acesse o Arquivo do Desafio aqui!](./projects/challenges/challenge-dio-oop-java/README.md)
+
 ## 🎯 Resultados
 
 Confira os certificados [aqui!](./public/docs/certificates/)

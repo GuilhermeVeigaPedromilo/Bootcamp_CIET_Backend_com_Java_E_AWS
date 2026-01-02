@@ -1,8 +1,11 @@
+import java.time.LocalDate;
+import java.time.LocalTime;
 import java.time.OffsetDateTime;
 import java.util.Scanner;
 
 public class App {
     public static void main(String[] args) throws Exception {
+        // Don't use the class date, because is deprecated currently
         int currentYear = OffsetDateTime.now().getYear();
         System.out.println("Hello, World!");
         var scanner = new Scanner(System.in);        
