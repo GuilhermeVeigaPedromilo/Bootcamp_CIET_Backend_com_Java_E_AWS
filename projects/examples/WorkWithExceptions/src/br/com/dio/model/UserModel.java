@@ -1,14 +1,15 @@
 package br.com.dio.model;
 
+import java.time.LocalDate;
 import java.time.OffsetDateTime;
 import java.util.Objects;
 
 public class UserModel {
-    // Attreibutes
+    // Attributes
     private long id;
     private String name;
     private String email;
-    private OffsetDateTime birthday;
+    private LocalDate birthday;
 
     // Getters and Setters
     public long getId() {
@@ -20,7 +21,7 @@ public class UserModel {
     public String getEmail() {
         return email;
     }
-    public OffsetDateTime getBirthday() {
+    public LocalDate getBirthday() {
         return birthday;
     }
     public void setId(long id) {
@@ -32,7 +33,7 @@ public class UserModel {
     public void setEmail(String email) {
         this.email = email;
     }
-    public void setBirthday(OffsetDateTime birthday) {
+    public void setBirthday(LocalDate birthday) {
         this.birthday = birthday;
     }
 
@@ -41,7 +42,7 @@ public class UserModel {
 
     }
 
-    public UserModel(long id, String name, String email, OffsetDateTime birthday) {
+    public UserModel(final long id, final String name, final String email, final LocalDate birthday) {
         this.id = id;
         this.name = name;
         this.email = email;

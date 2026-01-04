@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/ApiOfStreams/ApiOfStreams.iml" filepath="$PROJECT_DIR$/projects/examples/ApiOfStreams/ApiOfStreams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Bootcamp_CIET_Backend_com_Java_E_AWS.iml" filepath="$PROJECT_DIR$/.idea/Bootcamp_CIET_Backend_com_Java_E_AWS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/CalculatorExample/CalculatorExample.iml" filepath="$PROJECT_DIR$/projects/examples/CalculatorExample/CalculatorExample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/projects/examples/HelloWorld/HelloWorld.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/JavaFundamentals/JavaFundamentals.iml" filepath="$PROJECT_DIR$/projects/examples/JavaFundamentals/JavaFundamentals.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/ObjectOrientationWtihJava/ObjectOrientationWtihJava.iml" filepath="$PROJECT_DIR$/projects/examples/ObjectOrientationWtihJava/ObjectOrientationWtihJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/examples/WorkWithExceptions/WorkWithExceptions.iml" filepath="$PROJECT_DIR$/projects/examples/WorkWithExceptions/WorkWithExceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projects/challenges/challenges.iml" filepath="$PROJECT_DIR$/projects/challenges/challenges.iml" />
+    </modules>
+  </component>
+</project>
